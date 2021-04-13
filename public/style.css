@@ -1,0 +1,91 @@
+body {
+    background-color: #F5F5F5;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    background: -webkit-linear-gradient(90deg, #FFBF69 0%, #FFA733 46%, #FF9F1C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.main {
+    display: inline-flex;
+}
+
+.search {
+    margin: 25px;
+}
+
+.weather-phrase {
+    width: 90%;
+}
+
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 50px;
+    width: 65%;
+   
+    padding: 5px;
+    margin: 0.5rem;
+
+    font-size: 3rem;
+    padding: 1rem 1rem 1rem 3rem;
+    color: #858585;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff; 
+    
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: #FFBF69;
+    color: white;
+    border-radius: 50px;
+    
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 15%;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+}
+
+.results {
+    display: inline;
+    margin: 1rem;
+}
+
+
+.weather {
+    font-size: 3rem;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    color: #232020;
+    opacity: 80%;
+    line-height: 5rem;
+
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .main {
+        display: block;
+    }
+    
+
+    .results {
+        display:flex;
+        margin: 1rem;
+    }
+}
+
+

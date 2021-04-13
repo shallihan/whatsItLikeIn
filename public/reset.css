@@ -1,0 +1,13 @@
+html {
+    box-sizing: absolute;
+    background-color: #F5F5F5;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:16px;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+}
